@@ -1,0 +1,79 @@
+.kontinjeri{
+    height: 300px;
+    width: 95%;
+    margin: auto;
+    display: grid;
+     grid-template-columns: 30% 70%;
+}
+
+.fotoja{
+    border-color: rgba(79, 78, 78, 0.037);
+    border-style: solid;
+}
+.fotoja:hover{
+    border-color: rgba(79, 78, 78, 0.046);
+border-style: solid ;
+box-shadow: 5px 5px 40px -5px rgb(160, 160, 160);
+}
+
+.informacioni{
+    border-color: rgba(79, 78, 78, 0.037);
+    border-style: solid;
+    }
+    .informacioni:hover{
+        border-color: rgba(79, 78, 78, 0.046);
+border-style: solid ;
+box-shadow: 5px 5px 40px -5px rgb(160, 160, 160);
+    }
+    .foot{
+display:table ;
+width: 100%;
+height: 200px; /* Adjust as needed */
+background-color:#00685C;
+position: relative;
+top: 400px;
+color: white;
+}
+.foot p {
+font-size: xx-large;
+display: table-cell;
+text-align: center; /* Horizontal centering */
+vertical-align: middle; /* Vertical centering */
+}
+.grid {
+display: grid;
+grid-template-columns: 35% 50% 40%;
+position: relative;
+left: 70px;
+
+}  
+.grid>div{
+width: 60%;
+display: inline-block;
+}
+.grid2{
+position: relative;
+top: 30px;
+right: 50px;
+}
+.grid3{
+position: relative;
+top: 25px;
+}
+
+.contact{
+    width: 75%;
+    margin: auto;
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    height: 400px;
+    position: relative;
+   
+    top: 290px;
+}
+.contact2{
+    position: relative;
+    top: 90px;
+    
+}

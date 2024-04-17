@@ -1,0 +1,221 @@
+.grid {
+    display: grid;
+    grid-template-columns: 35% 50% 40%;
+    position: relative;
+    left: 70px;
+    
+}  
+.grid>div{
+    width: 60%;
+    display: inline-block;
+}
+.grid2{
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+.grid3{
+    position: relative;
+    top: 25px;
+}
+.fa:hover{
+    color: red;
+}
+/*imazhi i auroplanit brenda ne photo*/
+.photos{
+    width:280px;
+    height: 165px
+}
+/*the flights*/
+.flights{
+    
+    width: 680px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50% 50% ;
+    position: relative;
+    right: 150px;
+    border: none;
+}
+
+.flights2{
+    
+    width:680px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50% 50% ;
+    position: relative;
+    right: 150px;
+    top: 50px;
+}
+.flights3{
+   
+    width: 680px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50% 50% ;
+    position: relative;
+    right: 150px;
+    top: 100px;
+}
+
+
+/*the info nd thing inside the plane*/
+.BuyButton{
+
+    background-color: white;
+   width: 280px;
+   height: 372px;
+    border-color: rgba(79, 78, 78, 0.037);
+    border-style: solid;
+    text-align: center;
+     text-align: justify;
+     
+}
+.BuyButton:hover{
+    
+padding: 5px;
+padding-bottom: 15px;
+border-color: rgba(79, 78, 78, 0.046);
+border-style: solid ;
+box-shadow: 5px 5px 40px -5px rgb(160, 160, 160);
+}
+/*butoni i blerejes*/
+.bli{
+    position: relative;
+    top: 10px;
+    width: 280px;
+    height: 50px;
+    background-color: rgb(182, 3, 3);
+    border: none;
+    color: white;
+}
+.OtherButton{
+    width: 150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 90% 80% 60%;
+    position: relative;
+    right: 50px;
+}
+/*gjith pjesa e hotelit njelloj si ajo e auroplanit thjesht duhet ti bej ngjiyra ndryshme*/
+.hotels{
+   
+    width: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50% 50% ;
+    position: relative;
+    right: 150px;
+}
+.hotels2{
+  
+    width: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50% 50% ;
+    position: relative;
+    right: 150px;
+    top: 50px;
+}
+.hotels3{
+   
+    width: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50% 50% ;
+    position: relative;
+    right: 150px;
+    top: 100px;
+}
+
+/*ai fjalimi per traveling*/
+.inspirim{
+    border-color:rgb(0, 98, 65);
+    border-style: solid;
+    border-width: 13px;
+    border-right: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+   font-size: 150%;
+    width: 1000px;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 50px;
+    position: relative;
+    left: 25px;
+}
+/* butonat qe te cojn ne faqe te tjera*/
+.hoverEffect{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 35px;
+}
+.hoverEffect:hover{
+ background-color: white;
+ color: black;
+}
+.perdoruesit{
+  
+    width: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 44% 44% 44% ;
+    position: relative;
+    right:100px;
+    top: 100px;
+  
+}
+.perdoruesitB{
+    
+    background-color: rgba(221, 224, 222, 0.483);
+   width: 250px;
+  padding: 10px; 
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px -10px black;
+    
+}
+.perdoruesitB:hover{
+    box-shadow: 5px 5px 30px -5px gray;
+}
+/*ajo qe thot kontakoni*/
+.contact{
+    width: 75%;
+    margin: auto;
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    height: 400px;
+    position: relative;
+   
+    top: 50px;
+}
+.contact2{
+    position: relative;
+    top: 90px;
+    
+}
+.checked{
+    color: yellow;
+}
+
+
+/*pjesa e foterit se nuk po bente centre teksti*/
+.foot{
+    display:table ;
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    background-color:#00685C;
+    position: relative;
+    top: 400px;
+    color: white;
+}
+.foot p {
+   font-size: xx-large;
+    display: table-cell;
+    text-align: center; /* Horizontal centering */
+    vertical-align: middle; /* Vertical centering */
+  }
